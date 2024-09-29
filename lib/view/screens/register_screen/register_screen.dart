@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:int_prep/view/screens/login_screen/login_screen.dart';
-
+import 'package:int_prep/view/screens/responsive/responsive.dart';
 import '../../../core/constants/color_constants/color_constant.dart';
 
 class RegistrationScreen extends StatefulWidget {
@@ -21,8 +21,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return
+      Scaffold(
         appBar: AppBar(
           title: Text('Register yourself'),
         ),
@@ -146,8 +146,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
             ),
           ),
         ),
-      ),
-    );
+          );
   }
 
   Widget _buildTextField({

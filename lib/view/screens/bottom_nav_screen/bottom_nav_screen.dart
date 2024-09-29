@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:int_prep/core/constants/color_constants/color_constant.dart';
+import 'package:int_prep/view/screens/image_api_screen/image_api.dart';
+import 'package:int_prep/view/screens/login_screen/login_screen.dart';
+import 'package:int_prep/view/screens/register_screen/register_screen.dart';
+import 'package:int_prep/view/screens/scanner_screen/scanner_screen.dart';
 
 class BottomNavScreen extends StatefulWidget {
   const BottomNavScreen({super.key});
@@ -11,7 +15,10 @@ class BottomNavScreen extends StatefulWidget {
 class _BottomNavScreenState extends State<BottomNavScreen> {
   int seletedIndex = 0;
   List<Widget> _screens = [
-   // ShoppingScreen(),
+    ImageList(),
+    ScannerScreen(),
+    RegistrationScreen(),
+    // ShoppingScreen(),
     //ScannerScreen(),
     //ProfileScreen(),
   ];

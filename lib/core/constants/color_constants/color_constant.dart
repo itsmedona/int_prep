@@ -1,18 +1,42 @@
 import 'package:flutter/material.dart';
 
 class ColorConstant {
-  static Color primaryGreen = Color(0xff003133);
-  static Color ShopsieGrey = Color.fromARGB(255, 81, 81, 81);
-  static Color mainWhite = Color.fromARGB(255, 255, 255, 255);
-  static Color mainRed = Colors.red;
-  static Color mainBlack = Colors.black;
-
-  //card colors
-
-  static List<Color> cardColor = [
-    Color(0xffD9EDBF),
-    Color(0xffFFB996),
-    Color(0xffFFCF81),
-    Color(0xffFDFFAB),
-  ];
+  static const primaryGreen = Color(0xff003133);
+  static const ShopsieGrey = Color.fromARGB(255, 81, 81, 81);
+  static const mainWhite = Color.fromARGB(255, 255, 255, 255);
+  static const mainRed = Colors.red;
+  static const mainBlack = Colors.black;
+  static const greycolor=Colors.grey;
+  static const primaryColor = Color(0XFF4a2fbd);
+  static const secondaryColor = Color(0xFFFE53BB);
+  static const textColor = Color(0xFF2B2B2B);
+  static const lightgrayColor = Color(0x44948282);
+  static const whiteColor = Color(0xFFFFFFFF);
+  static const blackColor = Color(0xFF2B2B2B);
+  static const errorcolor = Colors.red;
+  static const lightBackgroundColor = Color(0xFFFFFFFF);
+  static const lightTextColor = Color(0xFF403930);
+  static const darkBackgroundColor = Color(0xFF2B2B2B);
+  static const darkTextColor = Color(0xFFF3F2FF);
+  static const uiComponentsbgColor = Color(0xFFf8f9fb);
+  static const uiComponentsbuttonColor = Color(0xFF188acc);
+  static const uiComponentstarbuttonColor = Color(0xFF3a4046);
+  static const tabbarlableColor = Color(0xFF033D73);
+  static const tabbarBackground = Color(0xFFF0F3F5);
+  static const dividerColor = Color(0xFFDDE1E5);
+  static const buttonSecondaryColor = Color(0xFFcfd5da);
+  static const buttonSuccessColor = Color(0xFF78ab40);
+  static const buttonInfoColor = Color(0xFF3eabe8);
+  static const checkBoxButtonColor = Color(0xFF0d4378);
+  static const buttonWarningColor = Color(0xFFde5b02);
+  static const buttonFocusColor = Color(0xFF6a17f2);
+  static const buttonAltColor = Color(0xFF754ac4);
+  static const buttonBorderColor = Color(0xFFf8f9fa);
+  static const buttontextColor = Color(0xFFb4bcc3);
+  static const textgreyColor = Color(0xFF7e7e7e);
+  static const buttondangerColor = Color(0xFFcc3339);
+  static const containerBgColor = Color(0xFFf8e0d1);
+  static const terxtBgColor = Color(0xFF732d00);
+  static const bgGreyColor = Color(0xFFe9ecef);
+  static const drbackgroundColor = Color(0xFF343A40);
 }
