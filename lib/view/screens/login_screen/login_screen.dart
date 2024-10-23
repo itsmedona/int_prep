@@ -121,3 +121,78 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 }
+/*
+Container(
+              width: MediaQuery.of(context).size.width,
+              height: 550,
+              decoration: BoxDecoration(color: Colors.black),
+              child: Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Column(
+                    children: [
+                      //   Heading(title: 'Login'),
+                      SizedBox(
+                        height: 10,
+                      ),
+
+                      Textfieldwidget(
+                        controller: emailcontroller,
+                        hinttext: 'Email'),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Textfieldwidget(
+                        controller: passwordcontroller,
+                        hinttext: 'Password'),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Authbutton(
+                        colors: Color.fromARGB(255, 218, 18, 3),
+                        ontap: () {
+                           String email=emailcontroller.text.trim();
+                String password=passwordcontroller.text.trim();
+
+                FireBaseFunction().loginuser(email:email,password:password).then((response){
+                  if(response==null){
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Bottom()));
+                  }else{
+                      ScaffoldMessenger.of(context)
+                          .showSnackBar(SnackBar(content: Text(response)));
+                  }
+
+                });
+                        },
+                        title: 'LOGIN',
+                        textcolor: Colors.white,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Textbuttonwidget(
+                          firsttext: 'Dont have an account?',
+                          ontap: () {
+                            Navigator.of(context).push(MaterialPageRoute(
+                                builder: (context) => Signup()));
+                          },
+                          buttontext: 'Sign Up'),
+                      Divider(
+                        height: 10,
+                        endIndent: 1,
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+*/
