@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:int_prep/view/screens/image_api_screen/image_api.dart';
-import 'package:int_prep/view/screens/login_screen/login_screen.dart';
+import 'package:int_prep/samples/screens/login_screen/login_screen.dart';
 //import 'package:int_prep/view/screens/reorder_screen/reorder_list.dart';
 
 class SplashScreen extends StatefulWidget {
